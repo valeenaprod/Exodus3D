@@ -1,6 +1,10 @@
-[gd_scene load_steps=2 format=3 uid="uid://b2b64461jx6br"]
+[gd_scene load_steps=3 format=3 uid="uid://b2b64461jx6br"]
 
 [ext_resource type="Script" path="res://Player/PlayerController.cs" id="1_vinp4"]
+[ext_resource type="Script" path="res://Player/PlayerStates/PlayerStateMachine.cs" id="2_q5vsp"]
 
 [node name="PlayerScene" type="Node3D"]
 script = ExtResource("1_vinp4")
+
+[node name="PlayerStateMachine" type="Node3D" parent="."]
+script = ExtResource("2_q5vsp")
