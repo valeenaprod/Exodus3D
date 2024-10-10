@@ -1,4 +1,6 @@
-﻿namespace Exodus3D.Player.PlayerStates;
+﻿using Godot;
+
+namespace Exodus3D.Player.PlayerStates;
 
 public abstract class PlayerState
 {
@@ -10,6 +12,8 @@ public abstract class PlayerState
     }
 
     public abstract void Enter();
-    public abstract void Update(double delta);
+    public virtual void Update(double delta) {}
+    public virtual void PhysicsUpdate(double delta) {}
+    public virtual void UnhandledInput(InputEvent @event) {}
     public abstract void Exit();
 }
