@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://7y77s0bc4y3a"
+path="res://.godot/imported/rugSquare.obj-d225bc1674cd7c2ac42333079a761c15.mesh"
+
+[deps]
+
+files=["res://.godot/imported/rugSquare.obj-d225bc1674cd7c2ac42333079a761c15.mesh"]
+
+source_file="res://Assets/furnitures/rugSquare.obj"
+dest_files=["res://.godot/imported/rugSquare.obj-d225bc1674cd7c2ac42333079a761c15.mesh", "res://.godot/imported/rugSquare.obj-d225bc1674cd7c2ac42333079a761c15.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

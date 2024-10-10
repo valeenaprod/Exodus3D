@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cr1crx4udw4kf"
+path="res://.godot/imported/tableCrossCloth.obj-f527f2c7418c6fcfe4a8f9354af787cd.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tableCrossCloth.obj-f527f2c7418c6fcfe4a8f9354af787cd.mesh"]
+
+source_file="res://Assets/furnitures/tableCrossCloth.obj"
+dest_files=["res://.godot/imported/tableCrossCloth.obj-f527f2c7418c6fcfe4a8f9354af787cd.mesh", "res://.godot/imported/tableCrossCloth.obj-f527f2c7418c6fcfe4a8f9354af787cd.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

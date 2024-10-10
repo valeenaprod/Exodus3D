@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b6o4drkvuqb00"
+path="res://.godot/imported/kitchenCoffeeMachine.obj-dd5056c0ed4f76ad870ee2abb1bb9ca7.mesh"
+
+[deps]
+
+files=["res://.godot/imported/kitchenCoffeeMachine.obj-dd5056c0ed4f76ad870ee2abb1bb9ca7.mesh"]
+
+source_file="res://Assets/furnitures/kitchenCoffeeMachine.obj"
+dest_files=["res://.godot/imported/kitchenCoffeeMachine.obj-dd5056c0ed4f76ad870ee2abb1bb9ca7.mesh", "res://.godot/imported/kitchenCoffeeMachine.obj-dd5056c0ed4f76ad870ee2abb1bb9ca7.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ctwnfvqxv2ltm"
+path="res://.godot/imported/mushroom-half.obj-463865795343b39d20988e309a88cab5.mesh"
+
+[deps]
+
+files=["res://.godot/imported/mushroom-half.obj-463865795343b39d20988e309a88cab5.mesh"]
+
+source_file="res://Assets/food/mushroom-half.obj"
+dest_files=["res://.godot/imported/mushroom-half.obj-463865795343b39d20988e309a88cab5.mesh", "res://.godot/imported/mushroom-half.obj-463865795343b39d20988e309a88cab5.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

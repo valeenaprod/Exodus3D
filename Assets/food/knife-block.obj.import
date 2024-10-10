@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://mbig1pxskq5w"
+path="res://.godot/imported/knife-block.obj-79f2810e7eb2483240d151ce601eb46f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/knife-block.obj-79f2810e7eb2483240d151ce601eb46f.mesh"]
+
+source_file="res://Assets/food/knife-block.obj"
+dest_files=["res://.godot/imported/knife-block.obj-79f2810e7eb2483240d151ce601eb46f.mesh", "res://.godot/imported/knife-block.obj-79f2810e7eb2483240d151ce601eb46f.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

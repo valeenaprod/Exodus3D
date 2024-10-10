@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://gtvlcr307iac"
+path="res://.godot/imported/wall.obj-4886aeddf98de3dc706fcfa099ffbdef.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wall.obj-4886aeddf98de3dc706fcfa099ffbdef.mesh"]
+
+source_file="res://Assets/furnitures/wall.obj"
+dest_files=["res://.godot/imported/wall.obj-4886aeddf98de3dc706fcfa099ffbdef.mesh", "res://.godot/imported/wall.obj-4886aeddf98de3dc706fcfa099ffbdef.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

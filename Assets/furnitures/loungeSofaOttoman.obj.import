@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://der03vo0d3xiw"
+path="res://.godot/imported/loungeSofaOttoman.obj-29a97a74686ff64f0c2bbff17e28d6f0.mesh"
+
+[deps]
+
+files=["res://.godot/imported/loungeSofaOttoman.obj-29a97a74686ff64f0c2bbff17e28d6f0.mesh"]
+
+source_file="res://Assets/furnitures/loungeSofaOttoman.obj"
+dest_files=["res://.godot/imported/loungeSofaOttoman.obj-29a97a74686ff64f0c2bbff17e28d6f0.mesh", "res://.godot/imported/loungeSofaOttoman.obj-29a97a74686ff64f0c2bbff17e28d6f0.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

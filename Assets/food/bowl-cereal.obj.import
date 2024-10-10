@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://4lpylh6j6y53"
+path="res://.godot/imported/bowl-cereal.obj-30712a681ce91e85cc0678040eca4ecd.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bowl-cereal.obj-30712a681ce91e85cc0678040eca4ecd.mesh"]
+
+source_file="res://Assets/food/bowl-cereal.obj"
+dest_files=["res://.godot/imported/bowl-cereal.obj-30712a681ce91e85cc0678040eca4ecd.mesh", "res://.godot/imported/bowl-cereal.obj-30712a681ce91e85cc0678040eca4ecd.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

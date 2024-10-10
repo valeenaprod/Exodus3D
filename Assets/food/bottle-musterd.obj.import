@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://chity76grpqu5"
+path="res://.godot/imported/bottle-musterd.obj-58f05ebc9315cb1c120c1e92310b02e6.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bottle-musterd.obj-58f05ebc9315cb1c120c1e92310b02e6.mesh"]
+
+source_file="res://Assets/food/bottle-musterd.obj"
+dest_files=["res://.godot/imported/bottle-musterd.obj-58f05ebc9315cb1c120c1e92310b02e6.mesh", "res://.godot/imported/bottle-musterd.obj-58f05ebc9315cb1c120c1e92310b02e6.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

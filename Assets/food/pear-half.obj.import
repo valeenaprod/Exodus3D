@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://2gbdl8oojl0v"
+path="res://.godot/imported/pear-half.obj-d5efefe78c51b5a8615d36b47379255a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/pear-half.obj-d5efefe78c51b5a8615d36b47379255a.mesh"]
+
+source_file="res://Assets/food/pear-half.obj"
+dest_files=["res://.godot/imported/pear-half.obj-d5efefe78c51b5a8615d36b47379255a.mesh", "res://.godot/imported/pear-half.obj-d5efefe78c51b5a8615d36b47379255a.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

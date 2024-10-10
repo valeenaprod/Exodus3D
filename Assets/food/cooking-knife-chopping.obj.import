@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dln53o0hdflit"
+path="res://.godot/imported/cooking-knife-chopping.obj-3ceb4a7fb357819b26758f044c76053e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/cooking-knife-chopping.obj-3ceb4a7fb357819b26758f044c76053e.mesh"]
+
+source_file="res://Assets/food/cooking-knife-chopping.obj"
+dest_files=["res://.godot/imported/cooking-knife-chopping.obj-3ceb4a7fb357819b26758f044c76053e.mesh", "res://.godot/imported/cooking-knife-chopping.obj-3ceb4a7fb357819b26758f044c76053e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

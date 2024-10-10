@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cvimp16r3020i"
+path="res://.godot/imported/mug.obj-aee1b2192cf967fecb7869305d82632b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/mug.obj-aee1b2192cf967fecb7869305d82632b.mesh"]
+
+source_file="res://Assets/food/mug.obj"
+dest_files=["res://.godot/imported/mug.obj-aee1b2192cf967fecb7869305d82632b.mesh", "res://.godot/imported/mug.obj-aee1b2192cf967fecb7869305d82632b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

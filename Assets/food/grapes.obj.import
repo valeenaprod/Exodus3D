@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ckwgf5f4q0rrj"
+path="res://.godot/imported/grapes.obj-2f4a038ea073102bb27f42539df003bc.mesh"
+
+[deps]
+
+files=["res://.godot/imported/grapes.obj-2f4a038ea073102bb27f42539df003bc.mesh"]
+
+source_file="res://Assets/food/grapes.obj"
+dest_files=["res://.godot/imported/grapes.obj-2f4a038ea073102bb27f42539df003bc.mesh", "res://.godot/imported/grapes.obj-2f4a038ea073102bb27f42539df003bc.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

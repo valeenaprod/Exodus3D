@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cysl0fw8h2gi8"
+path="res://.godot/imported/lampRoundTable.obj-ff681e1948bd2254c9aa3700444b3602.mesh"
+
+[deps]
+
+files=["res://.godot/imported/lampRoundTable.obj-ff681e1948bd2254c9aa3700444b3602.mesh"]
+
+source_file="res://Assets/furnitures/lampRoundTable.obj"
+dest_files=["res://.godot/imported/lampRoundTable.obj-ff681e1948bd2254c9aa3700444b3602.mesh", "res://.godot/imported/lampRoundTable.obj-ff681e1948bd2254c9aa3700444b3602.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

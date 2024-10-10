@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bshvfb5qln6ux"
+path="res://.godot/imported/egg-cup.obj-98186096f82194f9deb1974f6ac46bf8.mesh"
+
+[deps]
+
+files=["res://.godot/imported/egg-cup.obj-98186096f82194f9deb1974f6ac46bf8.mesh"]
+
+source_file="res://Assets/food/egg-cup.obj"
+dest_files=["res://.godot/imported/egg-cup.obj-98186096f82194f9deb1974f6ac46bf8.mesh", "res://.godot/imported/egg-cup.obj-98186096f82194f9deb1974f6ac46bf8.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

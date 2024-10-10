@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ctdx6r8ugcpac"
+path="res://.godot/imported/kitchenCabinetCornerRound.obj-0a73194a2bac95b73d46c35e924964c3.mesh"
+
+[deps]
+
+files=["res://.godot/imported/kitchenCabinetCornerRound.obj-0a73194a2bac95b73d46c35e924964c3.mesh"]
+
+source_file="res://Assets/furnitures/kitchenCabinetCornerRound.obj"
+dest_files=["res://.godot/imported/kitchenCabinetCornerRound.obj-0a73194a2bac95b73d46c35e924964c3.mesh", "res://.godot/imported/kitchenCabinetCornerRound.obj-0a73194a2bac95b73d46c35e924964c3.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

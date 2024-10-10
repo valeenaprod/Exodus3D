@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://csyc3wknfo4hs"
+path="res://.godot/imported/tajine-lid.obj-85bc22f0c240d1e84ff22c0f4e5971c1.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tajine-lid.obj-85bc22f0c240d1e84ff22c0f4e5971c1.mesh"]
+
+source_file="res://Assets/food/tajine-lid.obj"
+dest_files=["res://.godot/imported/tajine-lid.obj-85bc22f0c240d1e84ff22c0f4e5971c1.mesh", "res://.godot/imported/tajine-lid.obj-85bc22f0c240d1e84ff22c0f4e5971c1.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

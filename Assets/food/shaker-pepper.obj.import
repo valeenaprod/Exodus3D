@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cinsi4l0khwt1"
+path="res://.godot/imported/shaker-pepper.obj-bafed335653b4f101a950fc32a5df580.mesh"
+
+[deps]
+
+files=["res://.godot/imported/shaker-pepper.obj-bafed335653b4f101a950fc32a5df580.mesh"]
+
+source_file="res://Assets/food/shaker-pepper.obj"
+dest_files=["res://.godot/imported/shaker-pepper.obj-bafed335653b4f101a950fc32a5df580.mesh", "res://.godot/imported/shaker-pepper.obj-bafed335653b4f101a950fc32a5df580.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

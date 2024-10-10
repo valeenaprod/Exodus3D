@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://7tcd4sse3ppl"
+path="res://.godot/imported/bag-flat.obj-87d5836ffc75e28b5b4b4e1ec76f7ac2.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bag-flat.obj-87d5836ffc75e28b5b4b4e1ec76f7ac2.mesh"]
+
+source_file="res://Assets/food/bag-flat.obj"
+dest_files=["res://.godot/imported/bag-flat.obj-87d5836ffc75e28b5b4b4e1ec76f7ac2.mesh", "res://.godot/imported/bag-flat.obj-87d5836ffc75e28b5b4b4e1ec76f7ac2.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b0amdufd6crbx"
+path="res://.godot/imported/donut-sprinkles.obj-ba8d7130b6d60ce8e0c378f0bd6c6790.mesh"
+
+[deps]
+
+files=["res://.godot/imported/donut-sprinkles.obj-ba8d7130b6d60ce8e0c378f0bd6c6790.mesh"]
+
+source_file="res://Assets/food/donut-sprinkles.obj"
+dest_files=["res://.godot/imported/donut-sprinkles.obj-ba8d7130b6d60ce8e0c378f0bd6c6790.mesh", "res://.godot/imported/donut-sprinkles.obj-ba8d7130b6d60ce8e0c378f0bd6c6790.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

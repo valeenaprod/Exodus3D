@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c5c2p45q7vy86"
+path="res://.godot/imported/bathroomCabinetDrawer.obj-2be063610e9c34d00f4cc9cc014854c1.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bathroomCabinetDrawer.obj-2be063610e9c34d00f4cc9cc014854c1.mesh"]
+
+source_file="res://Assets/furnitures/bathroomCabinetDrawer.obj"
+dest_files=["res://.godot/imported/bathroomCabinetDrawer.obj-2be063610e9c34d00f4cc9cc014854c1.mesh", "res://.godot/imported/bathroomCabinetDrawer.obj-2be063610e9c34d00f4cc9cc014854c1.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

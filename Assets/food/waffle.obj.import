@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bph2wtwpjv0qd"
+path="res://.godot/imported/waffle.obj-83371d2ef5c248d9ea3ad5dd5d8c3e90.mesh"
+
+[deps]
+
+files=["res://.godot/imported/waffle.obj-83371d2ef5c248d9ea3ad5dd5d8c3e90.mesh"]
+
+source_file="res://Assets/food/waffle.obj"
+dest_files=["res://.godot/imported/waffle.obj-83371d2ef5c248d9ea3ad5dd5d8c3e90.mesh", "res://.godot/imported/waffle.obj-83371d2ef5c248d9ea3ad5dd5d8c3e90.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

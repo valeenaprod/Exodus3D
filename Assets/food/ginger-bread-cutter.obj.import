@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://4nqtbu23ykin"
+path="res://.godot/imported/ginger-bread-cutter.obj-4adb92cac2837b3b667c0d8e595ffb9d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/ginger-bread-cutter.obj-4adb92cac2837b3b667c0d8e595ffb9d.mesh"]
+
+source_file="res://Assets/food/ginger-bread-cutter.obj"
+dest_files=["res://.godot/imported/ginger-bread-cutter.obj-4adb92cac2837b3b667c0d8e595ffb9d.mesh", "res://.godot/imported/ginger-bread-cutter.obj-4adb92cac2837b3b667c0d8e595ffb9d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

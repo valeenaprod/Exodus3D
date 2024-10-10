@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b0sry08pvb4cf"
+path="res://.godot/imported/sundae.obj-7514b8096024b441b04df0ae43a4e21d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/sundae.obj-7514b8096024b441b04df0ae43a4e21d.mesh"]
+
+source_file="res://Assets/food/sundae.obj"
+dest_files=["res://.godot/imported/sundae.obj-7514b8096024b441b04df0ae43a4e21d.mesh", "res://.godot/imported/sundae.obj-7514b8096024b441b04df0ae43a4e21d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

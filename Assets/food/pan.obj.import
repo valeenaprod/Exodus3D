@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dvlwo50b1ux2l"
+path="res://.godot/imported/pan.obj-2e6e115e74a0b47b4158a07917488544.mesh"
+
+[deps]
+
+files=["res://.godot/imported/pan.obj-2e6e115e74a0b47b4158a07917488544.mesh"]
+
+source_file="res://Assets/food/pan.obj"
+dest_files=["res://.godot/imported/pan.obj-2e6e115e74a0b47b4158a07917488544.mesh", "res://.godot/imported/pan.obj-2e6e115e74a0b47b4158a07917488544.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

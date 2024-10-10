@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bqo0bkysmqilb"
+path="res://.godot/imported/donut-chocolate.obj-8f5d9cc556ca7a3fd77e46de9f690f35.mesh"
+
+[deps]
+
+files=["res://.godot/imported/donut-chocolate.obj-8f5d9cc556ca7a3fd77e46de9f690f35.mesh"]
+
+source_file="res://Assets/food/donut-chocolate.obj"
+dest_files=["res://.godot/imported/donut-chocolate.obj-8f5d9cc556ca7a3fd77e46de9f690f35.mesh", "res://.godot/imported/donut-chocolate.obj-8f5d9cc556ca7a3fd77e46de9f690f35.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

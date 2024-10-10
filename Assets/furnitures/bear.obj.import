@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://kppjiim1f4yk"
+path="res://.godot/imported/bear.obj-7b58b9a17a9d70b938bd0fdbdd0d184e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bear.obj-7b58b9a17a9d70b938bd0fdbdd0d184e.mesh"]
+
+source_file="res://Assets/furnitures/bear.obj"
+dest_files=["res://.godot/imported/bear.obj-7b58b9a17a9d70b938bd0fdbdd0d184e.mesh", "res://.godot/imported/bear.obj-7b58b9a17a9d70b938bd0fdbdd0d184e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

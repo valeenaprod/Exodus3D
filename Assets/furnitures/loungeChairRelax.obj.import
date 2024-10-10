@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://nhugdbnrok8i"
+path="res://.godot/imported/loungeChairRelax.obj-4616e8ffc8323a545dc9db054187558e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/loungeChairRelax.obj-4616e8ffc8323a545dc9db054187558e.mesh"]
+
+source_file="res://Assets/furnitures/loungeChairRelax.obj"
+dest_files=["res://.godot/imported/loungeChairRelax.obj-4616e8ffc8323a545dc9db054187558e.mesh", "res://.godot/imported/loungeChairRelax.obj-4616e8ffc8323a545dc9db054187558e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

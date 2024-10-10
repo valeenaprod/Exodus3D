@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ob15nbg70p4a"
+path="res://.godot/imported/rugDoormat.obj-d93cfea7063bb05012a6c625a403a7fb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/rugDoormat.obj-d93cfea7063bb05012a6c625a403a7fb.mesh"]
+
+source_file="res://Assets/furnitures/rugDoormat.obj"
+dest_files=["res://.godot/imported/rugDoormat.obj-d93cfea7063bb05012a6c625a403a7fb.mesh", "res://.godot/imported/rugDoormat.obj-d93cfea7063bb05012a6c625a403a7fb.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

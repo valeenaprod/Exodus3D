@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://blxv2g4343ltg"
+path="res://.godot/imported/hoodModern.obj-7bce32172e8ca0a323f4ce9cbe495c83.mesh"
+
+[deps]
+
+files=["res://.godot/imported/hoodModern.obj-7bce32172e8ca0a323f4ce9cbe495c83.mesh"]
+
+source_file="res://Assets/furnitures/hoodModern.obj"
+dest_files=["res://.godot/imported/hoodModern.obj-7bce32172e8ca0a323f4ce9cbe495c83.mesh", "res://.godot/imported/hoodModern.obj-7bce32172e8ca0a323f4ce9cbe495c83.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

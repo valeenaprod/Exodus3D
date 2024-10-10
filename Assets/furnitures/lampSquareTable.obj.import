@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ql1bl18cgqel"
+path="res://.godot/imported/lampSquareTable.obj-7f80300b65bc112ad657586a7e968028.mesh"
+
+[deps]
+
+files=["res://.godot/imported/lampSquareTable.obj-7f80300b65bc112ad657586a7e968028.mesh"]
+
+source_file="res://Assets/furnitures/lampSquareTable.obj"
+dest_files=["res://.godot/imported/lampSquareTable.obj-7f80300b65bc112ad657586a7e968028.mesh", "res://.godot/imported/lampSquareTable.obj-7f80300b65bc112ad657586a7e968028.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

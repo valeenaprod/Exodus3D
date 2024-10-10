@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c04rgo3kbacrr"
+path="res://.godot/imported/bowl-soup.obj-c22f6390a9e616105c0d47bc769a11b2.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bowl-soup.obj-c22f6390a9e616105c0d47bc769a11b2.mesh"]
+
+source_file="res://Assets/food/bowl-soup.obj"
+dest_files=["res://.godot/imported/bowl-soup.obj-c22f6390a9e616105c0d47bc769a11b2.mesh", "res://.godot/imported/bowl-soup.obj-c22f6390a9e616105c0d47bc769a11b2.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

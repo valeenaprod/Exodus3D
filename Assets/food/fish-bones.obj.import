@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b8f7gn1whpie8"
+path="res://.godot/imported/fish-bones.obj-54d1f98441fcc4669aa15efd692761fb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/fish-bones.obj-54d1f98441fcc4669aa15efd692761fb.mesh"]
+
+source_file="res://Assets/food/fish-bones.obj"
+dest_files=["res://.godot/imported/fish-bones.obj-54d1f98441fcc4669aa15efd692761fb.mesh", "res://.godot/imported/fish-bones.obj-54d1f98441fcc4669aa15efd692761fb.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b5tq8cn4lf81s"
+path="res://.godot/imported/bookcaseClosed.obj-8040f5004d95dcae0a74f81758b31615.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bookcaseClosed.obj-8040f5004d95dcae0a74f81758b31615.mesh"]
+
+source_file="res://Assets/furnitures/bookcaseClosed.obj"
+dest_files=["res://.godot/imported/bookcaseClosed.obj-8040f5004d95dcae0a74f81758b31615.mesh", "res://.godot/imported/bookcaseClosed.obj-8040f5004d95dcae0a74f81758b31615.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

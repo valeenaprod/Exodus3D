@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://viiya6cqmnan"
+path="res://.godot/imported/pepper.obj-f4f3020701a144598fcfe8296691885f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/pepper.obj-f4f3020701a144598fcfe8296691885f.mesh"]
+
+source_file="res://Assets/food/pepper.obj"
+dest_files=["res://.godot/imported/pepper.obj-f4f3020701a144598fcfe8296691885f.mesh", "res://.godot/imported/pepper.obj-f4f3020701a144598fcfe8296691885f.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

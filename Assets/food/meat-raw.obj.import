@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://kobeoae86asr"
+path="res://.godot/imported/meat-raw.obj-53a7bc36087e2d79263b23e4b066777c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/meat-raw.obj-53a7bc36087e2d79263b23e4b066777c.mesh"]
+
+source_file="res://Assets/food/meat-raw.obj"
+dest_files=["res://.godot/imported/meat-raw.obj-53a7bc36087e2d79263b23e4b066777c.mesh", "res://.godot/imported/meat-raw.obj-53a7bc36087e2d79263b23e4b066777c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

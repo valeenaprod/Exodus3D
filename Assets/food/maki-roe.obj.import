@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b4751bul7sxkq"
+path="res://.godot/imported/maki-roe.obj-e52b468e0b70007e0cee40b9da7b0a5f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/maki-roe.obj-e52b468e0b70007e0cee40b9da7b0a5f.mesh"]
+
+source_file="res://Assets/food/maki-roe.obj"
+dest_files=["res://.godot/imported/maki-roe.obj-e52b468e0b70007e0cee40b9da7b0a5f.mesh", "res://.godot/imported/maki-roe.obj-e52b468e0b70007e0cee40b9da7b0a5f.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

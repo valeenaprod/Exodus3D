@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c1prtvkgthx4s"
+path="res://.godot/imported/egg-cooked.obj-aa0581e2468e951bf7117bd2ee788496.mesh"
+
+[deps]
+
+files=["res://.godot/imported/egg-cooked.obj-aa0581e2468e951bf7117bd2ee788496.mesh"]
+
+source_file="res://Assets/food/egg-cooked.obj"
+dest_files=["res://.godot/imported/egg-cooked.obj-aa0581e2468e951bf7117bd2ee788496.mesh", "res://.godot/imported/egg-cooked.obj-aa0581e2468e951bf7117bd2ee788496.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

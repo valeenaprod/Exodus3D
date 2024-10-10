@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://chbnvc0j7hq4b"
+path="res://.godot/imported/can.obj-913e8e5b028e5cb43b746ee85267c244.mesh"
+
+[deps]
+
+files=["res://.godot/imported/can.obj-913e8e5b028e5cb43b746ee85267c244.mesh"]
+
+source_file="res://Assets/food/can.obj"
+dest_files=["res://.godot/imported/can.obj-913e8e5b028e5cb43b746ee85267c244.mesh", "res://.godot/imported/can.obj-913e8e5b028e5cb43b746ee85267c244.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

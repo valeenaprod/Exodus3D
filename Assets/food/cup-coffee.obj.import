@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dfnfycs30cocr"
+path="res://.godot/imported/cup-coffee.obj-6f263b6c852ce19319787a750c765fe8.mesh"
+
+[deps]
+
+files=["res://.godot/imported/cup-coffee.obj-6f263b6c852ce19319787a750c765fe8.mesh"]
+
+source_file="res://Assets/food/cup-coffee.obj"
+dest_files=["res://.godot/imported/cup-coffee.obj-6f263b6c852ce19319787a750c765fe8.mesh", "res://.godot/imported/cup-coffee.obj-6f263b6c852ce19319787a750c765fe8.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

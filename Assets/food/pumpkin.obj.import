@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ilv87hoicjim"
+path="res://.godot/imported/pumpkin.obj-f64a0e78fbd4307d876788101d00af90.mesh"
+
+[deps]
+
+files=["res://.godot/imported/pumpkin.obj-f64a0e78fbd4307d876788101d00af90.mesh"]
+
+source_file="res://Assets/food/pumpkin.obj"
+dest_files=["res://.godot/imported/pumpkin.obj-f64a0e78fbd4307d876788101d00af90.mesh", "res://.godot/imported/pumpkin.obj-f64a0e78fbd4307d876788101d00af90.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

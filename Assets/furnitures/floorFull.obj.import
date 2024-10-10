@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cdhhvonqmoblw"
+path="res://.godot/imported/floorFull.obj-e021f9968766e3e45166db1d2fa19cbe.mesh"
+
+[deps]
+
+files=["res://.godot/imported/floorFull.obj-e021f9968766e3e45166db1d2fa19cbe.mesh"]
+
+source_file="res://Assets/furnitures/floorFull.obj"
+dest_files=["res://.godot/imported/floorFull.obj-e021f9968766e3e45166db1d2fa19cbe.mesh", "res://.godot/imported/floorFull.obj-e021f9968766e3e45166db1d2fa19cbe.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://doyk8p3608sug"
+path="res://.godot/imported/cup-saucer.obj-fda248bfa048e5089b19eb5419f8f5ac.mesh"
+
+[deps]
+
+files=["res://.godot/imported/cup-saucer.obj-fda248bfa048e5089b19eb5419f8f5ac.mesh"]
+
+source_file="res://Assets/food/cup-saucer.obj"
+dest_files=["res://.godot/imported/cup-saucer.obj-fda248bfa048e5089b19eb5419f8f5ac.mesh", "res://.godot/imported/cup-saucer.obj-fda248bfa048e5089b19eb5419f8f5ac.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

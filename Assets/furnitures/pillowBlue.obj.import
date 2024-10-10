@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://pnviwukb5bky"
+path="res://.godot/imported/pillowBlue.obj-34aebd8999463cfca1a7bc1d573a1104.mesh"
+
+[deps]
+
+files=["res://.godot/imported/pillowBlue.obj-34aebd8999463cfca1a7bc1d573a1104.mesh"]
+
+source_file="res://Assets/furnitures/pillowBlue.obj"
+dest_files=["res://.godot/imported/pillowBlue.obj-34aebd8999463cfca1a7bc1d573a1104.mesh", "res://.godot/imported/pillowBlue.obj-34aebd8999463cfca1a7bc1d573a1104.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

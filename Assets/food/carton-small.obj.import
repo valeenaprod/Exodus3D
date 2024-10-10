@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c8no4660wxhb7"
+path="res://.godot/imported/carton-small.obj-a60995f2939b1365636bf25050fd4569.mesh"
+
+[deps]
+
+files=["res://.godot/imported/carton-small.obj-a60995f2939b1365636bf25050fd4569.mesh"]
+
+source_file="res://Assets/food/carton-small.obj"
+dest_files=["res://.godot/imported/carton-small.obj-a60995f2939b1365636bf25050fd4569.mesh", "res://.godot/imported/carton-small.obj-a60995f2939b1365636bf25050fd4569.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

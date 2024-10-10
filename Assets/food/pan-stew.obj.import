@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b4msnd12gnofo"
+path="res://.godot/imported/pan-stew.obj-5faeed137ec9f64beeed285d003f42be.mesh"
+
+[deps]
+
+files=["res://.godot/imported/pan-stew.obj-5faeed137ec9f64beeed285d003f42be.mesh"]
+
+source_file="res://Assets/food/pan-stew.obj"
+dest_files=["res://.godot/imported/pan-stew.obj-5faeed137ec9f64beeed285d003f42be.mesh", "res://.godot/imported/pan-stew.obj-5faeed137ec9f64beeed285d003f42be.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

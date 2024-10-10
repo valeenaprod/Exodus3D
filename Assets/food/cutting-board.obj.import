@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dmauhhidq08n3"
+path="res://.godot/imported/cutting-board.obj-c3a2428f30b41f2842b2fd5cccabd868.mesh"
+
+[deps]
+
+files=["res://.godot/imported/cutting-board.obj-c3a2428f30b41f2842b2fd5cccabd868.mesh"]
+
+source_file="res://Assets/food/cutting-board.obj"
+dest_files=["res://.godot/imported/cutting-board.obj-c3a2428f30b41f2842b2fd5cccabd868.mesh", "res://.godot/imported/cutting-board.obj-c3a2428f30b41f2842b2fd5cccabd868.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

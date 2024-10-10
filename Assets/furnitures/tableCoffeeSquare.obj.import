@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b7x0f0o83vf8u"
+path="res://.godot/imported/tableCoffeeSquare.obj-2acc768ef641b4f405ddba378f78127f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tableCoffeeSquare.obj-2acc768ef641b4f405ddba378f78127f.mesh"]
+
+source_file="res://Assets/furnitures/tableCoffeeSquare.obj"
+dest_files=["res://.godot/imported/tableCoffeeSquare.obj-2acc768ef641b4f405ddba378f78127f.mesh", "res://.godot/imported/tableCoffeeSquare.obj-2acc768ef641b4f405ddba378f78127f.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bnayhk1568g8c"
+path="res://.godot/imported/cooking-spoon.obj-b29a85588bda12bc2377bfda454532f8.mesh"
+
+[deps]
+
+files=["res://.godot/imported/cooking-spoon.obj-b29a85588bda12bc2377bfda454532f8.mesh"]
+
+source_file="res://Assets/food/cooking-spoon.obj"
+dest_files=["res://.godot/imported/cooking-spoon.obj-b29a85588bda12bc2377bfda454532f8.mesh", "res://.godot/imported/cooking-spoon.obj-b29a85588bda12bc2377bfda454532f8.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

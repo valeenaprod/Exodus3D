@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cd3nb4r87pd8h"
+path="res://.godot/imported/peanut-butter.obj-7edbd9d37a4068d03334ec96adb74ca2.mesh"
+
+[deps]
+
+files=["res://.godot/imported/peanut-butter.obj-7edbd9d37a4068d03334ec96adb74ca2.mesh"]
+
+source_file="res://Assets/food/peanut-butter.obj"
+dest_files=["res://.godot/imported/peanut-butter.obj-7edbd9d37a4068d03334ec96adb74ca2.mesh", "res://.godot/imported/peanut-butter.obj-7edbd9d37a4068d03334ec96adb74ca2.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

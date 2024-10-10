@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dmmj0u74otoot"
+path="res://.godot/imported/hot-dog-raw.obj-8a8ea2208b308a85fc322a5fdb9c174e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/hot-dog-raw.obj-8a8ea2208b308a85fc322a5fdb9c174e.mesh"]
+
+source_file="res://Assets/food/hot-dog-raw.obj"
+dest_files=["res://.godot/imported/hot-dog-raw.obj-8a8ea2208b308a85fc322a5fdb9c174e.mesh", "res://.godot/imported/hot-dog-raw.obj-8a8ea2208b308a85fc322a5fdb9c174e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://xuhx0xp4e48c"
+path="res://.godot/imported/beet.obj-776cf5a787d9cdd0ede27a94019c6560.mesh"
+
+[deps]
+
+files=["res://.godot/imported/beet.obj-776cf5a787d9cdd0ede27a94019c6560.mesh"]
+
+source_file="res://Assets/food/beet.obj"
+dest_files=["res://.godot/imported/beet.obj-776cf5a787d9cdd0ede27a94019c6560.mesh", "res://.godot/imported/beet.obj-776cf5a787d9cdd0ede27a94019c6560.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

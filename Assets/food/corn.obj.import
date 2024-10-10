@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dghu58jt0rbwr"
+path="res://.godot/imported/corn.obj-9ded5ef74792190642fd3fc57876c517.mesh"
+
+[deps]
+
+files=["res://.godot/imported/corn.obj-9ded5ef74792190642fd3fc57876c517.mesh"]
+
+source_file="res://Assets/food/corn.obj"
+dest_files=["res://.godot/imported/corn.obj-9ded5ef74792190642fd3fc57876c517.mesh", "res://.godot/imported/corn.obj-9ded5ef74792190642fd3fc57876c517.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

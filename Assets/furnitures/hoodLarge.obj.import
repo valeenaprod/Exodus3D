@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b4ofncmc7e6re"
+path="res://.godot/imported/hoodLarge.obj-7411a74166d9212cc9cfd8d48b8e151c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/hoodLarge.obj-7411a74166d9212cc9cfd8d48b8e151c.mesh"]
+
+source_file="res://Assets/furnitures/hoodLarge.obj"
+dest_files=["res://.godot/imported/hoodLarge.obj-7411a74166d9212cc9cfd8d48b8e151c.mesh", "res://.godot/imported/hoodLarge.obj-7411a74166d9212cc9cfd8d48b8e151c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

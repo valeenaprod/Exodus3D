@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://chmcmxatalcl"
+path="res://.godot/imported/bottle-oil.obj-27c118875cd1a287a6d7f6de327125bd.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bottle-oil.obj-27c118875cd1a287a6d7f6de327125bd.mesh"]
+
+source_file="res://Assets/food/bottle-oil.obj"
+dest_files=["res://.godot/imported/bottle-oil.obj-27c118875cd1a287a6d7f6de327125bd.mesh", "res://.godot/imported/bottle-oil.obj-27c118875cd1a287a6d7f6de327125bd.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

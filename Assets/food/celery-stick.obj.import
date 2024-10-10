@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b1dcy1ujjgqkp"
+path="res://.godot/imported/celery-stick.obj-6f8e4b83aa062f373eef13a4d45d8fff.mesh"
+
+[deps]
+
+files=["res://.godot/imported/celery-stick.obj-6f8e4b83aa062f373eef13a4d45d8fff.mesh"]
+
+source_file="res://Assets/food/celery-stick.obj"
+dest_files=["res://.godot/imported/celery-stick.obj-6f8e4b83aa062f373eef13a4d45d8fff.mesh", "res://.godot/imported/celery-stick.obj-6f8e4b83aa062f373eef13a4d45d8fff.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

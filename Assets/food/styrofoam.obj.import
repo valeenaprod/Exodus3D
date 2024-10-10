@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cgq1vpcf4jucs"
+path="res://.godot/imported/styrofoam.obj-4a81897d74ec1b945d4a08b16505a7bb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/styrofoam.obj-4a81897d74ec1b945d4a08b16505a7bb.mesh"]
+
+source_file="res://Assets/food/styrofoam.obj"
+dest_files=["res://.godot/imported/styrofoam.obj-4a81897d74ec1b945d4a08b16505a7bb.mesh", "res://.godot/imported/styrofoam.obj-4a81897d74ec1b945d4a08b16505a7bb.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

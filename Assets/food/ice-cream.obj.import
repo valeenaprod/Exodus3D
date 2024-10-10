@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ctsef0gi0fqr1"
+path="res://.godot/imported/ice-cream.obj-4c0e826e4e6881d1f14ff060b10518d4.mesh"
+
+[deps]
+
+files=["res://.godot/imported/ice-cream.obj-4c0e826e4e6881d1f14ff060b10518d4.mesh"]
+
+source_file="res://Assets/food/ice-cream.obj"
+dest_files=["res://.godot/imported/ice-cream.obj-4c0e826e4e6881d1f14ff060b10518d4.mesh", "res://.godot/imported/ice-cream.obj-4c0e826e4e6881d1f14ff060b10518d4.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

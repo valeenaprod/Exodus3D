@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://w1vtlduyiggj"
+path="res://.godot/imported/dim-sum.obj-22535761e9382f7c1e087bc5fc350dfa.mesh"
+
+[deps]
+
+files=["res://.godot/imported/dim-sum.obj-22535761e9382f7c1e087bc5fc350dfa.mesh"]
+
+source_file="res://Assets/food/dim-sum.obj"
+dest_files=["res://.godot/imported/dim-sum.obj-22535761e9382f7c1e087bc5fc350dfa.mesh", "res://.godot/imported/dim-sum.obj-22535761e9382f7c1e087bc5fc350dfa.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false
