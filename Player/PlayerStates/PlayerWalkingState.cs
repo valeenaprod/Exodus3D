@@ -7,46 +7,47 @@ namespace Exodus3D.Player.PlayerStates;
 public class PlayerWalkingState : PlayerState
 {
     private Vector3 _velocity;
-
-    private PlayerController _playerController;
     public PlayerWalkingState(PlayerStateMachine stateMachine) : base(stateMachine) {}
 
     public override void Enter()
     {
         Logger.Log("Entering Walking State");
         // Any setup logic for entering walking state
-        _playerController = GameManager.Instance.Player;
     }
 
-   /* public override void PhysicsUpdate(double delta)
+    public override void Update(double delta)
     {
-        var targetVelocity = Vector3.Zero;
-
-        var direction = Vector3.Zero;
-
-        if (Input.IsActionPressed("move_right"))
-            direction.X += 1.0f;
-        if (Input.IsActionPressed("move_left"))
-            direction.X -= 1.0f;
-        if (Input.IsActionPressed("move_back"))
-            direction.Z += 1.0f;
-        if (Input.IsActionPressed("move_forward"))
-            direction.X -= 1.0f;
-        if (direction != Vector3.Zero)
+        // Handle player movement logic
+        if (Input.IsActionPressed("move_up"))
         {
-            direction = direction.Normalized();
-            _playerController.GetNode<Node3D>("Pivot").Basis = Basis.LookingAt(direction);
+            _velocity.Y += 1;
         }
 
-        targetVelocity.X = direction.X * _playerController.MovementSpeed;
-        targetVelocity.Z = direction.Z * _playerController.MovementSpeed;
+        if (Input.IsActionPressed("move_down"))
+        {
+            _velocity.Y -= 1;
+        }
 
-        if (_playerController.IsOnFloor())
-            targetVelocity.Y -= _playerController.FallAcceleration * (float)delta;
+        if (Input.IsActionPressed("move_left"))
+        {
+            _velocity.X -= 1;
+        }
 
-        _playerController.Velocity = targetVelocity;
-        _playerController.MoveAndSlide();
-    }*/
+        if (Input.IsActionPressed("move_right"))
+        {
+            _velocity.X += 1;
+        }
+
+        var deltaFloat = (float)delta;
+        GameManager.Instance.Player.Translate(_velocity * deltaFloat * 5f);
+        
+        // Switch back to IdleState if there's no input
+        if (!Input.IsActionPressed("move_up") && !Input.IsActionPressed("move_down") 
+        && !Input.IsActionPressed("move_left") && !Input.IsActionPressed("move_right"))
+        {
+            _stateMachine.ChangeState(new PlayerIdleState(_stateMachine));
+        }
+    }
 
     public override void Exit()
     {
