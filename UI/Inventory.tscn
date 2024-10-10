@@ -1,0 +1,569 @@
+[gd_scene load_steps=5 format=3 uid="uid://bk2pehkpgnxsq"]
+
+[ext_resource type="Texture2D" uid="uid://bjiqt7wl26gqf" path="res://Assets/UI/buttonSquare_brown.png" id="1_ecv2a"]
+[ext_resource type="Script" path="res://UI/InventoryUI.cs" id="1_jgry5"]
+[ext_resource type="Texture2D" uid="uid://c3bemw6ki8uoa" path="res://Assets/genericItem_color_033.png" id="2_xr4vy"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_ydu4j"]
+line_spacing = 0.0
+font_size = 12
+font_color = Color(0, 0, 0, 1)
+
+[node name="Inventory" type="Control"]
+layout_mode = 3
+anchor_right = 0.368
+anchor_bottom = 0.699
+offset_right = 0.0639648
+offset_bottom = 0.0479736
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_jgry5")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 2
+offset_left = 2.0
+offset_top = 1.0
+offset_right = 281.835
+offset_bottom = 301.0
+scale = Vector2(1.505, 1.505)
+
+[node name="PanelContainer" type="PanelContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="CenterContainer" type="CenterContainer" parent="MarginContainer/PanelContainer"]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/PanelContainer/CenterContainer"]
+layout_mode = 2
+
+[node name="InventoryTitle" type="Label" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Inventory"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InventoryGrid" type="GridContainer" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+columns = 5
+
+[node name="InventoryItem" type="TextureButton" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid"]
+clip_children = 2
+clip_contents = true
+layout_mode = 2
+tooltip_text = "Hovered..."
+texture_normal = ExtResource("1_ecv2a")
+
+[node name="ItemTexture" type="TextureRect" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid/InventoryItem"]
+layout_mode = 0
+offset_left = 3.64785
+offset_top = 6.51496
+offset_right = 41.6478
+offset_bottom = 39.515
+texture = ExtResource("2_xr4vy")
+expand_mode = 3
+
+[node name="ItemQuantity" type="Label" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid/InventoryItem/ItemTexture"]
+layout_mode = 0
+offset_left = 30.3522
+offset_top = 20.485
+offset_right = 38.3522
+offset_bottom = 37.485
+text = "1
+"
+label_settings = SubResource("LabelSettings_ydu4j")
+
+[node name="InventoryItem2" type="TextureButton" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid"]
+clip_children = 2
+clip_contents = true
+layout_mode = 2
+tooltip_text = "Hovered..."
+texture_normal = ExtResource("1_ecv2a")
+
+[node name="ItemTexture" type="TextureRect" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid/InventoryItem2"]
+layout_mode = 0
+offset_left = 3.64785
+offset_top = 6.51496
+offset_right = 41.6478
+offset_bottom = 39.515
+texture = ExtResource("2_xr4vy")
+expand_mode = 3
+
+[node name="ItemQuantity" type="Label" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid/InventoryItem2"]
+layout_mode = 0
+offset_left = 34.0
+offset_top = 27.0
+offset_right = 42.0
+offset_bottom = 44.0
+text = "1
+"
+label_settings = SubResource("LabelSettings_ydu4j")
+
+[node name="InventoryItem3" type="TextureButton" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid"]
+clip_children = 2
+clip_contents = true
+layout_mode = 2
+tooltip_text = "Hovered..."
+texture_normal = ExtResource("1_ecv2a")
+
+[node name="ItemTexture" type="TextureRect" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid/InventoryItem3"]
+layout_mode = 0
+offset_left = 3.64785
+offset_top = 6.51496
+offset_right = 41.6478
+offset_bottom = 39.515
+texture = ExtResource("2_xr4vy")
+expand_mode = 3
+
+[node name="ItemQuantity" type="Label" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid/InventoryItem3"]
+layout_mode = 0
+offset_left = 34.0
+offset_top = 27.0
+offset_right = 42.0
+offset_bottom = 44.0
+text = "1
+"
+label_settings = SubResource("LabelSettings_ydu4j")
+
+[node name="InventoryItem4" type="TextureButton" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid"]
+clip_children = 2
+clip_contents = true
+layout_mode = 2
+tooltip_text = "Hovered..."
+texture_normal = ExtResource("1_ecv2a")
+
+[node name="ItemTexture" type="TextureRect" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid/InventoryItem4"]
+layout_mode = 0
+offset_left = 3.64785
+offset_top = 6.51496
+offset_right = 41.6478
+offset_bottom = 39.515
+texture = ExtResource("2_xr4vy")
+expand_mode = 3
+
+[node name="ItemQuantity" type="Label" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid/InventoryItem4"]
+layout_mode = 0
+offset_left = 34.0
+offset_top = 27.0
+offset_right = 42.0
+offset_bottom = 44.0
+text = "1
+"
+label_settings = SubResource("LabelSettings_ydu4j")
+
+[node name="InventoryItem5" type="TextureButton" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid"]
+clip_children = 2
+clip_contents = true
+layout_mode = 2
+tooltip_text = "Hovered..."
+texture_normal = ExtResource("1_ecv2a")
+
+[node name="ItemTexture" type="TextureRect" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid/InventoryItem5"]
+layout_mode = 0
+offset_left = 3.64785
+offset_top = 6.51496
+offset_right = 41.6478
+offset_bottom = 39.515
+texture = ExtResource("2_xr4vy")
+expand_mode = 3
+
+[node name="ItemQuantity" type="Label" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid/InventoryItem5"]
+layout_mode = 0
+offset_left = 34.0
+offset_top = 27.0
+offset_right = 42.0
+offset_bottom = 44.0
+text = "1
+"
+label_settings = SubResource("LabelSettings_ydu4j")
+
+[node name="InventoryItem6" type="TextureButton" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid"]
+clip_children = 2
+clip_contents = true
+layout_mode = 2
+tooltip_text = "Hovered..."
+texture_normal = ExtResource("1_ecv2a")
+
+[node name="ItemTexture" type="TextureRect" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid/InventoryItem6"]
+layout_mode = 0
+offset_left = 3.64785
+offset_top = 6.51496
+offset_right = 41.6478
+offset_bottom = 39.515
+texture = ExtResource("2_xr4vy")
+expand_mode = 3
+
+[node name="ItemQuantity" type="Label" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid/InventoryItem6"]
+layout_mode = 0
+offset_left = 34.0
+offset_top = 27.0
+offset_right = 42.0
+offset_bottom = 44.0
+text = "1
+"
+label_settings = SubResource("LabelSettings_ydu4j")
+
+[node name="InventoryItem7" type="TextureButton" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid"]
+clip_children = 2
+clip_contents = true
+layout_mode = 2
+tooltip_text = "Hovered..."
+texture_normal = ExtResource("1_ecv2a")
+
+[node name="ItemTexture" type="TextureRect" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid/InventoryItem7"]
+layout_mode = 0
+offset_left = 3.64785
+offset_top = 6.51496
+offset_right = 41.6478
+offset_bottom = 39.515
+texture = ExtResource("2_xr4vy")
+expand_mode = 3
+
+[node name="ItemQuantity" type="Label" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid/InventoryItem7"]
+layout_mode = 0
+offset_left = 34.0
+offset_top = 27.0
+offset_right = 42.0
+offset_bottom = 44.0
+text = "1
+"
+label_settings = SubResource("LabelSettings_ydu4j")
+
+[node name="InventoryItem8" type="TextureButton" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid"]
+clip_children = 2
+clip_contents = true
+layout_mode = 2
+tooltip_text = "Hovered..."
+texture_normal = ExtResource("1_ecv2a")
+
+[node name="ItemTexture" type="TextureRect" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid/InventoryItem8"]
+layout_mode = 0
+offset_left = 3.64785
+offset_top = 6.51496
+offset_right = 41.6478
+offset_bottom = 39.515
+texture = ExtResource("2_xr4vy")
+expand_mode = 3
+
+[node name="ItemQuantity" type="Label" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid/InventoryItem8"]
+layout_mode = 0
+offset_left = 34.0
+offset_top = 27.0
+offset_right = 42.0
+offset_bottom = 44.0
+text = "1
+"
+label_settings = SubResource("LabelSettings_ydu4j")
+
+[node name="InventoryItem9" type="TextureButton" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid"]
+clip_children = 2
+clip_contents = true
+layout_mode = 2
+tooltip_text = "Hovered..."
+texture_normal = ExtResource("1_ecv2a")
+
+[node name="ItemTexture" type="TextureRect" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid/InventoryItem9"]
+layout_mode = 0
+offset_left = 3.64785
+offset_top = 6.51496
+offset_right = 41.6478
+offset_bottom = 39.515
+texture = ExtResource("2_xr4vy")
+expand_mode = 3
+
+[node name="ItemQuantity" type="Label" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid/InventoryItem9"]
+layout_mode = 0
+offset_left = 34.0
+offset_top = 27.0
+offset_right = 42.0
+offset_bottom = 44.0
+text = "1
+"
+label_settings = SubResource("LabelSettings_ydu4j")
+
+[node name="InventoryItem10" type="TextureButton" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid"]
+clip_children = 2
+clip_contents = true
+layout_mode = 2
+tooltip_text = "Hovered..."
+texture_normal = ExtResource("1_ecv2a")
+
+[node name="ItemTexture" type="TextureRect" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid/InventoryItem10"]
+layout_mode = 0
+offset_left = 3.64785
+offset_top = 6.51496
+offset_right = 41.6478
+offset_bottom = 39.515
+texture = ExtResource("2_xr4vy")
+expand_mode = 3
+
+[node name="ItemQuantity" type="Label" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid/InventoryItem10"]
+layout_mode = 0
+offset_left = 34.0
+offset_top = 27.0
+offset_right = 42.0
+offset_bottom = 44.0
+text = "1
+"
+label_settings = SubResource("LabelSettings_ydu4j")
+
+[node name="InventoryItem11" type="TextureButton" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid"]
+clip_children = 2
+clip_contents = true
+layout_mode = 2
+tooltip_text = "Hovered..."
+texture_normal = ExtResource("1_ecv2a")
+
+[node name="ItemTexture" type="TextureRect" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid/InventoryItem11"]
+layout_mode = 0
+offset_left = 3.64785
+offset_top = 6.51496
+offset_right = 41.6478
+offset_bottom = 39.515
+texture = ExtResource("2_xr4vy")
+expand_mode = 3
+
+[node name="ItemQuantity" type="Label" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid/InventoryItem11"]
+layout_mode = 0
+offset_left = 34.0
+offset_top = 27.0
+offset_right = 42.0
+offset_bottom = 44.0
+text = "1
+"
+label_settings = SubResource("LabelSettings_ydu4j")
+
+[node name="InventoryItem12" type="TextureButton" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid"]
+clip_children = 2
+clip_contents = true
+layout_mode = 2
+tooltip_text = "Hovered..."
+texture_normal = ExtResource("1_ecv2a")
+
+[node name="ItemTexture" type="TextureRect" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid/InventoryItem12"]
+layout_mode = 0
+offset_left = 3.64785
+offset_top = 6.51496
+offset_right = 41.6478
+offset_bottom = 39.515
+texture = ExtResource("2_xr4vy")
+expand_mode = 3
+
+[node name="ItemQuantity" type="Label" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid/InventoryItem12"]
+layout_mode = 0
+offset_left = 34.0
+offset_top = 27.0
+offset_right = 42.0
+offset_bottom = 44.0
+text = "1
+"
+label_settings = SubResource("LabelSettings_ydu4j")
+
+[node name="InventoryItem13" type="TextureButton" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid"]
+clip_children = 2
+clip_contents = true
+layout_mode = 2
+tooltip_text = "Hovered..."
+texture_normal = ExtResource("1_ecv2a")
+
+[node name="ItemTexture" type="TextureRect" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid/InventoryItem13"]
+layout_mode = 0
+offset_left = 3.64785
+offset_top = 6.51496
+offset_right = 41.6478
+offset_bottom = 39.515
+texture = ExtResource("2_xr4vy")
+expand_mode = 3
+
+[node name="ItemQuantity" type="Label" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid/InventoryItem13"]
+layout_mode = 0
+offset_left = 34.0
+offset_top = 27.0
+offset_right = 42.0
+offset_bottom = 44.0
+text = "1
+"
+label_settings = SubResource("LabelSettings_ydu4j")
+
+[node name="InventoryItem14" type="TextureButton" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid"]
+clip_children = 2
+clip_contents = true
+layout_mode = 2
+tooltip_text = "Hovered..."
+texture_normal = ExtResource("1_ecv2a")
+
+[node name="ItemTexture" type="TextureRect" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid/InventoryItem14"]
+layout_mode = 0
+offset_left = 3.64785
+offset_top = 6.51496
+offset_right = 41.6478
+offset_bottom = 39.515
+texture = ExtResource("2_xr4vy")
+expand_mode = 3
+
+[node name="ItemQuantity" type="Label" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid/InventoryItem14"]
+layout_mode = 0
+offset_left = 34.0
+offset_top = 27.0
+offset_right = 42.0
+offset_bottom = 44.0
+text = "1
+"
+label_settings = SubResource("LabelSettings_ydu4j")
+
+[node name="InventoryItem15" type="TextureButton" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid"]
+clip_children = 2
+clip_contents = true
+layout_mode = 2
+tooltip_text = "Hovered..."
+texture_normal = ExtResource("1_ecv2a")
+
+[node name="ItemTexture" type="TextureRect" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid/InventoryItem15"]
+layout_mode = 0
+offset_left = 3.64785
+offset_top = 6.51496
+offset_right = 41.6478
+offset_bottom = 39.515
+texture = ExtResource("2_xr4vy")
+expand_mode = 3
+
+[node name="ItemQuantity" type="Label" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid/InventoryItem15"]
+layout_mode = 0
+offset_left = 34.0
+offset_top = 27.0
+offset_right = 42.0
+offset_bottom = 44.0
+text = "1
+"
+label_settings = SubResource("LabelSettings_ydu4j")
+
+[node name="InventoryItem16" type="TextureButton" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid"]
+clip_children = 2
+clip_contents = true
+layout_mode = 2
+tooltip_text = "Hovered..."
+texture_normal = ExtResource("1_ecv2a")
+
+[node name="ItemTexture" type="TextureRect" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid/InventoryItem16"]
+layout_mode = 0
+offset_left = 3.64785
+offset_top = 6.51496
+offset_right = 41.6478
+offset_bottom = 39.515
+texture = ExtResource("2_xr4vy")
+expand_mode = 3
+
+[node name="ItemQuantity" type="Label" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid/InventoryItem16"]
+layout_mode = 0
+offset_left = 34.0
+offset_top = 27.0
+offset_right = 42.0
+offset_bottom = 44.0
+text = "1
+"
+label_settings = SubResource("LabelSettings_ydu4j")
+
+[node name="InventoryItem17" type="TextureButton" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid"]
+clip_children = 2
+clip_contents = true
+layout_mode = 2
+tooltip_text = "Hovered..."
+texture_normal = ExtResource("1_ecv2a")
+
+[node name="ItemTexture" type="TextureRect" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid/InventoryItem17"]
+layout_mode = 0
+offset_left = 3.64785
+offset_top = 6.51496
+offset_right = 41.6478
+offset_bottom = 39.515
+texture = ExtResource("2_xr4vy")
+expand_mode = 3
+
+[node name="ItemQuantity" type="Label" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid/InventoryItem17"]
+layout_mode = 0
+offset_left = 34.0
+offset_top = 27.0
+offset_right = 42.0
+offset_bottom = 44.0
+text = "1
+"
+label_settings = SubResource("LabelSettings_ydu4j")
+
+[node name="InventoryItem18" type="TextureButton" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid"]
+clip_children = 2
+clip_contents = true
+layout_mode = 2
+tooltip_text = "Hovered..."
+texture_normal = ExtResource("1_ecv2a")
+
+[node name="ItemTexture" type="TextureRect" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid/InventoryItem18"]
+layout_mode = 0
+offset_left = 3.64785
+offset_top = 6.51496
+offset_right = 41.6478
+offset_bottom = 39.515
+texture = ExtResource("2_xr4vy")
+expand_mode = 3
+
+[node name="ItemQuantity" type="Label" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid/InventoryItem18"]
+layout_mode = 0
+offset_left = 34.0
+offset_top = 27.0
+offset_right = 42.0
+offset_bottom = 44.0
+text = "1
+"
+label_settings = SubResource("LabelSettings_ydu4j")
+
+[node name="InventoryItem19" type="TextureButton" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid"]
+clip_children = 2
+clip_contents = true
+layout_mode = 2
+tooltip_text = "Hovered..."
+texture_normal = ExtResource("1_ecv2a")
+
+[node name="ItemTexture" type="TextureRect" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid/InventoryItem19"]
+layout_mode = 0
+offset_left = 3.64785
+offset_top = 6.51496
+offset_right = 41.6478
+offset_bottom = 39.515
+texture = ExtResource("2_xr4vy")
+expand_mode = 3
+
+[node name="ItemQuantity" type="Label" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid/InventoryItem19"]
+layout_mode = 0
+offset_left = 34.0
+offset_top = 27.0
+offset_right = 42.0
+offset_bottom = 44.0
+text = "1
+"
+label_settings = SubResource("LabelSettings_ydu4j")
+
+[node name="InventoryItem20" type="TextureButton" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid"]
+clip_children = 2
+clip_contents = true
+layout_mode = 2
+tooltip_text = "Hovered..."
+texture_normal = ExtResource("1_ecv2a")
+
+[node name="ItemTexture" type="TextureRect" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid/InventoryItem20"]
+layout_mode = 0
+offset_left = 3.64785
+offset_top = 6.51496
+offset_right = 41.6478
+offset_bottom = 39.515
+texture = ExtResource("2_xr4vy")
+expand_mode = 3
+
+[node name="ItemQuantity" type="Label" parent="MarginContainer/PanelContainer/CenterContainer/VBoxContainer/InventoryGrid/InventoryItem20"]
+layout_mode = 0
+offset_left = 34.0
+offset_top = 27.0
+offset_right = 42.0
+offset_bottom = 44.0
+text = "1
+"
+label_settings = SubResource("LabelSettings_ydu4j")
