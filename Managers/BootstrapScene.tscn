@@ -4,5 +4,3 @@
 
 [node name="Bootstrap" type="Node"]
 script = ExtResource("1_ok5t1")
-
-[node name="SceneContainer" type="Node" parent="."]
