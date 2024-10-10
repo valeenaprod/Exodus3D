@@ -1,0 +1,555 @@
+[gd_scene load_steps=22 format=3 uid="uid://c55c1mponanqs"]
+
+[ext_resource type="ArrayMesh" uid="uid://s4c6jmmwk8aw" path="res://Assets/kenney_prototype-kit/Models/OBJ format/wall.obj" id="1_g3g8b"]
+[ext_resource type="ArrayMesh" uid="uid://bysefmgu141ga" path="res://Assets/kenney_prototype-kit/Models/OBJ format/door-sliding.obj" id="2_xvsxn"]
+[ext_resource type="ArrayMesh" uid="uid://dmgadfplsoilh" path="res://Assets/kenney_prototype-kit/Models/OBJ format/crate-color.obj" id="3_k6stm"]
+[ext_resource type="Script" path="res://Prefabs/GroundObject.cs" id="3_sln4g"]
+[ext_resource type="ArrayMesh" uid="uid://b7v3jvybj3fb6" path="res://Assets/kenney_prototype-kit/Models/OBJ format/flag.obj" id="4_8fo5d"]
+[ext_resource type="ArrayMesh" uid="uid://dr58emdcdfjfg" path="res://Assets/kenney_prototype-kit/Models/OBJ format/coin.obj" id="5_je1t2"]
+[ext_resource type="ArrayMesh" uid="uid://dswrgx0xhlrhj" path="res://Assets/kenney_prototype-kit/Models/OBJ format/figurine-large.obj" id="6_55e0q"]
+[ext_resource type="Script" path="res://Prefabs/NPC.cs" id="6_508ro"]
+[ext_resource type="ArrayMesh" uid="uid://du6e65qn8tpxx" path="res://Assets/furnitures/lampSquareFloor.obj" id="7_pw44t"]
+[ext_resource type="ArrayMesh" uid="uid://b6nunol2ysigk" path="res://Assets/kenney_prototype-kit/Models/OBJ format/lever-single.obj" id="8_76xft"]
+[ext_resource type="Script" path="res://Prefabs/Light.cs" id="8_qf370"]
+[ext_resource type="ArrayMesh" uid="uid://bfb8wge34mt3g" path="res://Assets/food/apple.obj" id="9_b33td"]
+[ext_resource type="Script" path="res://Prefabs/Item.cs" id="10_hwieq"]
+[ext_resource type="Script" path="res://Prefabs/Door.cs" id="11_4j6t1"]
+[ext_resource type="Script" path="res://Prefabs/Generator.cs" id="12_wcbkd"]
+[ext_resource type="PackedScene" uid="uid://b2b64461jx6br" path="res://Player/PlayerScene.tscn" id="15_bal6o"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_plmp3"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_cdfk0"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_56aj1"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_hwp4d"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_aqkk2"]
+
+[node name="GroundMap" type="Node3D"]
+
+[node name="Props" type="Node3D" parent="."]
+
+[node name="Crate [Resource]" type="MeshInstance3D" parent="Props"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21.984, 0, -0.002)
+mesh = ExtResource("3_k6stm")
+skeleton = NodePath("")
+script = ExtResource("10_hwieq")
+metadata/_edit_group_ = true
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Props/Crate [Resource]"]
+collision_layer = 4
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Props/Crate [Resource]/StaticBody3D"]
+shape = SubResource("BoxShape3D_plmp3")
+
+[node name="Crate [Food]2" type="MeshInstance3D" parent="Props"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.244, 0, -2.07)
+mesh = ExtResource("3_k6stm")
+script = ExtResource("10_hwieq")
+metadata/_edit_group_ = true
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Props/Crate [Food]2"]
+collision_layer = 4
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Props/Crate [Food]2/StaticBody3D"]
+shape = SubResource("BoxShape3D_plmp3")
+
+[node name="Crate [Food]3" type="MeshInstance3D" parent="Props"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.575, 0.5, -2.07043)
+mesh = ExtResource("3_k6stm")
+script = ExtResource("10_hwieq")
+metadata/_edit_group_ = true
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Props/Crate [Food]3"]
+collision_layer = 4
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Props/Crate [Food]3/StaticBody3D"]
+shape = SubResource("BoxShape3D_plmp3")
+
+[node name="Crate [Food]4" type="MeshInstance3D" parent="Props"]
+transform = Transform3D(0.999646, 0, 0.0265957, 0, 1, 0, -0.0265957, 0, 0.999646, -7.9428, -2.03267, -11.5677)
+mesh = ExtResource("3_k6stm")
+script = ExtResource("3_sln4g")
+metadata/_edit_group_ = true
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Props/Crate [Food]4"]
+collision_layer = 4
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Props/Crate [Food]4/StaticBody3D"]
+shape = SubResource("BoxShape3D_plmp3")
+
+[node name="Crate [Food]5" type="MeshInstance3D" parent="Props"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.61587, -0.5, -2.07043)
+mesh = ExtResource("3_k6stm")
+script = ExtResource("10_hwieq")
+metadata/_edit_group_ = true
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Props/Crate [Food]5"]
+collision_layer = 4
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Props/Crate [Food]5/StaticBody3D"]
+shape = SubResource("BoxShape3D_plmp3")
+
+[node name="Crate [Food]6" type="MeshInstance3D" parent="Props"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.61587, -0.5, 3.07832)
+mesh = ExtResource("3_k6stm")
+script = ExtResource("10_hwieq")
+metadata/_edit_group_ = true
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Props/Crate [Food]6"]
+collision_layer = 4
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Props/Crate [Food]6/StaticBody3D"]
+shape = SubResource("BoxShape3D_plmp3")
+
+[node name="Crate [Food]7" type="MeshInstance3D" parent="Props"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.36583, -0.5, -0.002)
+mesh = ExtResource("3_k6stm")
+script = ExtResource("10_hwieq")
+metadata/_edit_group_ = true
+metadata/_edit_lock_ = true
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Props/Crate [Food]7"]
+collision_layer = 4
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Props/Crate [Food]7/StaticBody3D"]
+shape = SubResource("BoxShape3D_plmp3")
+
+[node name="Crate [Food]8" type="MeshInstance3D" parent="Props"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.575, -0.5, 4.50512)
+mesh = ExtResource("3_k6stm")
+script = ExtResource("10_hwieq")
+metadata/_edit_group_ = true
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Props/Crate [Food]8"]
+collision_layer = 4
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Props/Crate [Food]8/StaticBody3D"]
+shape = SubResource("BoxShape3D_plmp3")
+
+[node name="Crate [Food]9" type="MeshInstance3D" parent="Props"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.8823, -0.5, -1.57088)
+mesh = ExtResource("3_k6stm")
+script = ExtResource("10_hwieq")
+metadata/_edit_group_ = true
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Props/Crate [Food]9"]
+collision_layer = 4
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Props/Crate [Food]9/StaticBody3D"]
+shape = SubResource("BoxShape3D_plmp3")
+
+[node name="Crate [Food]10" type="MeshInstance3D" parent="Props"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.8823, -0.5, -8.39375)
+mesh = ExtResource("3_k6stm")
+script = ExtResource("10_hwieq")
+metadata/_edit_group_ = true
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Props/Crate [Food]10"]
+collision_layer = 4
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Props/Crate [Food]10/StaticBody3D"]
+shape = SubResource("BoxShape3D_plmp3")
+
+[node name="Crate [Food]11" type="MeshInstance3D" parent="Props"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.8823, -0.5, 3.86456)
+mesh = ExtResource("3_k6stm")
+script = ExtResource("10_hwieq")
+metadata/_edit_group_ = true
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Props/Crate [Food]11"]
+collision_layer = 4
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Props/Crate [Food]11/StaticBody3D"]
+shape = SubResource("BoxShape3D_plmp3")
+
+[node name="Crate [Food]12" type="MeshInstance3D" parent="Props"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.8823, -0.5, 18.6608)
+mesh = ExtResource("3_k6stm")
+script = ExtResource("10_hwieq")
+metadata/_edit_group_ = true
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Props/Crate [Food]12"]
+collision_layer = 4
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Props/Crate [Food]12/StaticBody3D"]
+shape = SubResource("BoxShape3D_plmp3")
+
+[node name="Crate [Food]13" type="MeshInstance3D" parent="Props"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17.6199, -0.5, 4.50512)
+mesh = ExtResource("3_k6stm")
+script = ExtResource("10_hwieq")
+metadata/_edit_group_ = true
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Props/Crate [Food]13"]
+collision_layer = 4
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Props/Crate [Food]13/StaticBody3D"]
+shape = SubResource("BoxShape3D_plmp3")
+
+[node name="Crate [Food]14" type="MeshInstance3D" parent="Props"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.575, -0.5, 18.1997)
+mesh = ExtResource("3_k6stm")
+script = ExtResource("10_hwieq")
+metadata/_edit_group_ = true
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Props/Crate [Food]14"]
+collision_layer = 4
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Props/Crate [Food]14/StaticBody3D"]
+shape = SubResource("BoxShape3D_plmp3")
+
+[node name="Crate [Food]15" type="MeshInstance3D" parent="Props"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.575, -0.5, 4.50512)
+mesh = ExtResource("3_k6stm")
+script = ExtResource("10_hwieq")
+metadata/_edit_group_ = true
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Props/Crate [Food]15"]
+collision_layer = 4
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Props/Crate [Food]15/StaticBody3D"]
+shape = SubResource("BoxShape3D_plmp3")
+
+[node name="Crate [Food]16" type="MeshInstance3D" parent="Props"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.575, -0.5, 4.50512)
+mesh = ExtResource("3_k6stm")
+script = ExtResource("10_hwieq")
+metadata/_edit_group_ = true
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Props/Crate [Food]16"]
+collision_layer = 4
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Props/Crate [Food]16/StaticBody3D"]
+shape = SubResource("BoxShape3D_plmp3")
+
+[node name="Crate [Food]17" type="MeshInstance3D" parent="Props"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.575, -0.5, -3.865)
+mesh = ExtResource("3_k6stm")
+script = ExtResource("10_hwieq")
+metadata/_edit_group_ = true
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Props/Crate [Food]17"]
+collision_layer = 4
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Props/Crate [Food]17/StaticBody3D"]
+shape = SubResource("BoxShape3D_plmp3")
+
+[node name="Crate [Food]18" type="MeshInstance3D" parent="Props"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.575, -0.5, -3.865)
+mesh = ExtResource("3_k6stm")
+script = ExtResource("10_hwieq")
+metadata/_edit_group_ = true
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Props/Crate [Food]18"]
+collision_layer = 4
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Props/Crate [Food]18/StaticBody3D"]
+shape = SubResource("BoxShape3D_plmp3")
+
+[node name="Flag [Resource]" type="MeshInstance3D" parent="Props"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.17381, -0.551, 0)
+mesh = ExtResource("4_8fo5d")
+script = ExtResource("10_hwieq")
+metadata/_edit_group_ = true
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Props/Flag [Resource]"]
+collision_layer = 4
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Props/Flag [Resource]/StaticBody3D"]
+shape = SubResource("BoxShape3D_plmp3")
+
+[node name="Coin [Resource]" type="MeshInstance3D" parent="Props"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.9662, -0.206968, 0)
+mesh = ExtResource("5_je1t2")
+script = ExtResource("10_hwieq")
+metadata/_edit_group_ = true
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Props/Coin [Resource]"]
+collision_layer = 4
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Props/Coin [Resource]/StaticBody3D"]
+shape = SubResource("BoxShape3D_plmp3")
+
+[node name="NPCs" type="Node3D" parent="."]
+metadata/_edit_lock_ = true
+
+[node name="NPC" type="MeshInstance3D" parent="NPCs"]
+transform = Transform3D(0.999812, 0, 0.0194068, 0, 1, 0, -0.0194068, 0, 0.999812, 5.20128, -0.459315, 2.17142)
+mesh = ExtResource("6_55e0q")
+skeleton = NodePath("")
+script = ExtResource("6_508ro")
+metadata/_edit_group_ = true
+
+[node name="StaticBody3D" type="StaticBody3D" parent="NPCs/NPC"]
+collision_layer = 64
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="NPCs/NPC/StaticBody3D"]
+shape = SubResource("BoxShape3D_plmp3")
+
+[node name="NPC2" type="MeshInstance3D" parent="NPCs"]
+transform = Transform3D(0.999812, 0, 0.0194068, 0, 1, 0, -0.0194068, 0, 0.999812, 1.65787, 0.481283, 4.0693)
+mesh = ExtResource("6_55e0q")
+skeleton = NodePath("")
+script = ExtResource("6_508ro")
+metadata/_edit_group_ = true
+
+[node name="StaticBody3D" type="StaticBody3D" parent="NPCs/NPC2"]
+collision_layer = 64
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="NPCs/NPC2/StaticBody3D"]
+shape = SubResource("BoxShape3D_plmp3")
+
+[node name="NPC3" type="MeshInstance3D" parent="NPCs"]
+transform = Transform3D(0.999812, 0, 0.0194068, 0, 1, 0, -0.0194068, 0, 0.999812, 7.31424, 0.481283, 3.67027)
+mesh = ExtResource("6_55e0q")
+skeleton = NodePath("")
+script = ExtResource("6_508ro")
+metadata/_edit_group_ = true
+
+[node name="StaticBody3D" type="StaticBody3D" parent="NPCs/NPC3"]
+collision_layer = 64
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="NPCs/NPC3/StaticBody3D"]
+shape = SubResource("BoxShape3D_plmp3")
+
+[node name="Lights" type="Node3D" parent="."]
+
+[node name="FloorLight" type="MeshInstance3D" parent="Lights"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.83013, -1.53205, -3.42297)
+mesh = ExtResource("7_pw44t")
+skeleton = NodePath("")
+metadata/_edit_group_ = true
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Lights/FloorLight"]
+collision_layer = 16
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Lights/FloorLight/StaticBody3D"]
+shape = SubResource("BoxShape3D_plmp3")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="Lights/FloorLight"]
+
+[node name="FloorLight2" type="MeshInstance3D" parent="Lights"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.1839, -0.802787, -0.443511)
+mesh = ExtResource("7_pw44t")
+skeleton = NodePath("")
+script = ExtResource("8_qf370")
+metadata/_edit_group_ = true
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Lights/FloorLight2"]
+collision_layer = 16
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Lights/FloorLight2/StaticBody3D"]
+shape = SubResource("BoxShape3D_plmp3")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="Lights/FloorLight2"]
+
+[node name="FloorLight3" type="MeshInstance3D" parent="Lights"]
+transform = Transform3D(0.999812, 0, 0.0194068, 0, 1, 0, -0.0194068, 0, 0.999812, 7.9811, -0.680086, 0.756696)
+layers = 17
+mesh = ExtResource("7_pw44t")
+skeleton = NodePath("")
+script = ExtResource("8_qf370")
+metadata/_edit_group_ = true
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Lights/FloorLight3"]
+collision_layer = 16
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Lights/FloorLight3/StaticBody3D"]
+shape = SubResource("BoxShape3D_plmp3")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="Lights/FloorLight3"]
+
+[node name="Building" type="Node3D" parent="."]
+
+[node name="Ground" type="MeshInstance3D" parent="Building"]
+transform = Transform3D(126.486, 0, 0, 0, 1, 0, 0, 0, 128.841, 0, -1, 0)
+layers = 2
+mesh = SubResource("BoxMesh_cdfk0")
+skeleton = NodePath("../..")
+metadata/_edit_group_ = true
+metadata/_edit_lock_ = true
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Building/Ground"]
+collision_layer = 2
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Building/Ground/StaticBody3D"]
+shape = SubResource("BoxShape3D_56aj1")
+
+[node name="Wall1" type="MeshInstance3D" parent="Building"]
+transform = Transform3D(1, 0, 0, 0, 2, 0, 0, 0, 10, 0, 0, 0)
+visible = false
+layers = 2
+mesh = ExtResource("1_g3g8b")
+skeleton = NodePath("../..")
+metadata/_edit_group_ = true
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Building/Wall1"]
+collision_layer = 2
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Building/Wall1/StaticBody3D"]
+shape = SubResource("BoxShape3D_hwp4d")
+disabled = true
+
+[node name="Wall2" type="MeshInstance3D" parent="Building"]
+transform = Transform3D(1, 0, 0, 0, 2, 0, 0, 0, 10, 10, 0, 0)
+visible = false
+layers = 2
+mesh = ExtResource("1_g3g8b")
+skeleton = NodePath("../..")
+metadata/_edit_group_ = true
+metadata/_edit_lock_ = true
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Building/Wall2"]
+collision_layer = 2
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Building/Wall2/StaticBody3D"]
+shape = SubResource("BoxShape3D_hwp4d")
+disabled = true
+
+[node name="Wall3" type="MeshInstance3D" parent="Building"]
+transform = Transform3D(-4.37114e-08, 0, 10, 0, 2, 0, -1, 0, -4.37114e-07, 5, 0, 5)
+visible = false
+layers = 2
+mesh = ExtResource("1_g3g8b")
+skeleton = NodePath("../..")
+metadata/_edit_group_ = true
+metadata/_edit_lock_ = true
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Building/Wall3"]
+collision_layer = 2
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Building/Wall3/StaticBody3D"]
+shape = SubResource("BoxShape3D_hwp4d")
+disabled = true
+
+[node name="Wall4" type="MeshInstance3D" parent="Building"]
+transform = Transform3D(-4.37114e-08, 0, 10, 0, 2, 0, -1, 0, -4.37114e-07, 5, 0, -5)
+visible = false
+layers = 2
+mesh = ExtResource("1_g3g8b")
+skeleton = NodePath("../..")
+metadata/_edit_group_ = true
+metadata/_edit_lock_ = true
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Building/Wall4"]
+collision_layer = 2
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Building/Wall4/StaticBody3D"]
+shape = SubResource("BoxShape3D_hwp4d")
+disabled = true
+
+[node name="Door" type="MeshInstance3D" parent="Building"]
+transform = Transform3D(2.1, 0, 0, 0, 1, 0, 0, 0, 1, 10.002, -0.604541, 0)
+layers = 16
+mesh = ExtResource("2_xvsxn")
+skeleton = NodePath("../..")
+script = ExtResource("11_4j6t1")
+metadata/_edit_group_ = true
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Building/Door"]
+collision_layer = 2
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Building/Door/StaticBody3D"]
+shape = SubResource("BoxShape3D_hwp4d")
+
+[node name="GeneratorLever" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.994, 0, 1.42)
+visible = false
+mesh = ExtResource("8_76xft")
+script = ExtResource("12_wcbkd")
+metadata/_edit_group_ = true
+
+[node name="StaticBody3D" type="StaticBody3D" parent="GeneratorLever"]
+collision_layer = 16
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GeneratorLever/StaticBody3D"]
+shape = SubResource("CapsuleShape3D_aqkk2")
+
+[node name="Food" type="Node3D" parent="."]
+visible = false
+
+[node name="Apple [Food]2" type="MeshInstance3D" parent="Food"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.15962, 0.50703, 1.41962)
+mesh = ExtResource("9_b33td")
+skeleton = NodePath("../..")
+script = ExtResource("10_hwieq")
+metadata/_edit_group_ = true
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Food/Apple [Food]2"]
+collision_layer = 16
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Food/Apple [Food]2/StaticBody3D"]
+shape = SubResource("CapsuleShape3D_aqkk2")
+
+[node name="Apple [Food]" type="MeshInstance3D" parent="Food"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.16011, -0.949498, 2.8136)
+mesh = ExtResource("9_b33td")
+skeleton = NodePath("../..")
+script = ExtResource("10_hwieq")
+metadata/_edit_group_ = true
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Food/Apple [Food]"]
+collision_layer = 16
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Food/Apple [Food]/StaticBody3D"]
+shape = SubResource("CapsuleShape3D_aqkk2")
+
+[node name="Apple [Food]3" type="MeshInstance3D" parent="Food"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.96617, 0.50703, 2.81015)
+mesh = ExtResource("9_b33td")
+skeleton = NodePath("../..")
+script = ExtResource("10_hwieq")
+metadata/_edit_group_ = true
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Food/Apple [Food]3"]
+collision_layer = 16
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Food/Apple [Food]3/StaticBody3D"]
+shape = SubResource("CapsuleShape3D_aqkk2")
+
+[node name="Apple [Food]4" type="MeshInstance3D" parent="Food"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.96617, 0.50703, 3.32039)
+mesh = ExtResource("9_b33td")
+skeleton = NodePath("../..")
+script = ExtResource("10_hwieq")
+metadata/_edit_group_ = true
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Food/Apple [Food]4"]
+collision_layer = 16
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Food/Apple [Food]4/StaticBody3D"]
+shape = SubResource("CapsuleShape3D_aqkk2")
+
+[node name="Apple [Food]5" type="MeshInstance3D" parent="Food"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.67942, 0.50703, 3.32039)
+mesh = ExtResource("9_b33td")
+skeleton = NodePath("../..")
+script = ExtResource("10_hwieq")
+metadata/_edit_group_ = true
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Food/Apple [Food]5"]
+collision_layer = 16
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Food/Apple [Food]5/StaticBody3D"]
+shape = SubResource("CapsuleShape3D_aqkk2")
+
+[node name="Apple [Food]6" type="MeshInstance3D" parent="Food"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.65088, 0.50703, 3.91196)
+mesh = ExtResource("9_b33td")
+skeleton = NodePath("../..")
+script = ExtResource("10_hwieq")
+metadata/_edit_group_ = true
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Food/Apple [Food]6"]
+collision_layer = 16
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Food/Apple [Food]6/StaticBody3D"]
+shape = SubResource("CapsuleShape3D_aqkk2")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.990229, 0, -0.13945, 0, 1, 0, 0.13945, 0, 0.990229, -16.9112, 12.4626, 0)
+
+[node name="PlayerScene" parent="." instance=ExtResource("15_bal6o")]
