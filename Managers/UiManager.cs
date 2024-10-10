@@ -21,6 +21,7 @@ public partial class UiManager : CanvasLayer
 
     public override void _Ready()
     {
+        Logger.Log($"_Ready called in {Name}, tree available: {GetTree() != null}");
         if (Instance == null)
         {
             Instance = this;
@@ -36,6 +37,12 @@ public partial class UiManager : CanvasLayer
         _hud = GetNode<Control>("HUD");
         _mainMenu = GetNode<Control>("MainMenu");
         _pauseMenu = GetNode<Control>("PauseMenu");
+        
+        // Initialize HUD Nodes
+        _foodLabel = GetNode<Label>("%FoodLabel");
+        _powerLabel = GetNode<Label>("%PowerLabel");
+        _healthLabel = GetNode<Label>("%HealthLabel");
+        _hydrationLabel = GetNode<Label>("%HydrationLabel");
         
         // Set Initial Visibility
         ShowMainMenu(true);
@@ -73,7 +80,7 @@ public partial class UiManager : CanvasLayer
         _foodLabel.Text = $"FoodLevel: {GameManager.Instance.Player.FoodLevel}";
         _healthLabel.Text = $"HealthLevel: {GameManager.Instance.Player.HealthLevel}";
         _hydrationLabel.Text = $"HydrationLevel: {GameManager.Instance.Player.HydrationLevel}";
-        _powerLabel.Text = $"PowerLevel: {PowerManager.Instance.PowerLevel}";
+        _powerLabel.Text = $"PowerLevel: {PowerManager.Instance.AvailablePower}";
     }
 
     public override void _Process(double delta)

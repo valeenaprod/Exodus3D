@@ -4,3 +4,64 @@
 
 [node name="UIManager" type="CanvasLayer"]
 script = ExtResource("1_x4sw2")
+
+[node name="HUD" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="PanelContainer" type="PanelContainer" parent="HUD"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 850.0
+offset_top = -1.0
+offset_right = 1131.0
+offset_bottom = 57.0
+grow_horizontal = 2
+metadata/_edit_group_ = true
+
+[node name="HBoxContainer" type="HBoxContainer" parent="HUD/PanelContainer"]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HUD/PanelContainer/HBoxContainer"]
+layout_mode = 2
+
+[node name="HydrationLabel" type="Label" parent="HUD/PanelContainer/HBoxContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "HydrationLevel :"
+
+[node name="HealthLabel" type="Label" parent="HUD/PanelContainer/HBoxContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Healthlevel:"
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="HUD/PanelContainer/HBoxContainer"]
+layout_mode = 2
+
+[node name="FoodLabel" type="Label" parent="HUD/PanelContainer/HBoxContainer/VBoxContainer2"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "FoodLevel :"
+
+[node name="PowerLabel" type="Label" parent="HUD/PanelContainer/HBoxContainer/VBoxContainer2"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "PowerLevel:"
+
+[node name="MainMenu" type="Control" parent="."]
+visible = false
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="PauseMenu" type="Control" parent="."]
+visible = false
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
