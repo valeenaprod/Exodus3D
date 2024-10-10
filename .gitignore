@@ -1,3 +1,9 @@
+# Unkown or addon related
+.github/
+/icon/
+/Image
+/images/
+
 # Godot-specific
 .import/
 .godot/
@@ -30,3 +36,10 @@ Desktop.ini
 
 # NuGet packages
 packages/
+/.github
+GDScript Resources CSharp Export.csproj
+GDScript Resources CSharp Export.csproj
+GDScript Resources CSharp Export.sln
+icon.png
+icon.png.import
+Image/.gdignore
