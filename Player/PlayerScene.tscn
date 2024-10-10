@@ -1,10 +1,129 @@
-[gd_scene load_steps=3 format=3 uid="uid://b2b64461jx6br"]
+[gd_scene load_steps=17 format=3 uid="uid://b2b64461jx6br"]
 
 [ext_resource type="Script" path="res://Player/PlayerController.cs" id="1_vinp4"]
+[ext_resource type="PackedScene" uid="uid://b1ojtxb2g2inc" path="res://Prefabs/CharacterPrefab.tscn" id="2_nd5ig"]
 [ext_resource type="Script" path="res://Player/PlayerStates/PlayerStateMachine.cs" id="2_q5vsp"]
+[ext_resource type="Script" path="res://addons/phantom_camera/scripts/phantom_camera/phantom_camera_3d.gd" id="4_sjyj6"]
+[ext_resource type="Script" path="res://addons/phantom_camera/scripts/resources/tween_resource.gd" id="5_64rna"]
+[ext_resource type="Script" path="res://addons/phantom_camera/scripts/phantom_camera_host/phantom_camera_host.gd" id="5_kefl2"]
+[ext_resource type="Script" path="res://addons/phantom_camera/scripts/resources/camera_3d_resource.gd" id="6_4d761"]
+[ext_resource type="Script" path="res://addons/smoothing/smoothing.gd" id="6_mg8m8"]
 
-[node name="PlayerScene" type="Node3D"]
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_mgmk6"]
+radius = 1.21166
+height = 7.6289
+
+[sub_resource type="Animation" id="Animation_pwjut"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("RayCast3D:target_position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, -1, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_2k6sw"]
+resource_name = "idle"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("RayCast3D:target_position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, -1, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_g2hp2"]
+resource_name = "run"
+
+[sub_resource type="Animation" id="Animation_2g34s"]
+resource_name = "jump"
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_nct81"]
+_data = {
+&"RESET": SubResource("Animation_pwjut"),
+&"run": SubResource("Animation_g2hp2"),
+&"jump": SubResource("Animation_2g34s"),
+&"idle": SubResource("Animation_2k6sw")
+}
+
+[sub_resource type="Resource" id="Resource_43r8r"]
+script = ExtResource("5_64rna")
+duration = 1.0
+transition = 0
+ease = 2
+
+[sub_resource type="Resource" id="Resource_nhmn7"]
+script = ExtResource("6_4d761")
+cull_mask = 1048575
+h_offset = 0.0
+v_offset = 0.0
+projection = 0
+fov = 75.0
+size = 1.0
+frustum_offset = Vector2(0, 0)
+near = 0.05
+far = 4000.0
+
+[node name="PlayerScene" type="CharacterBody3D"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.0999999, 0, 0, 0)
+collision_layer = 65
+collision_mask = 222
 script = ExtResource("1_vinp4")
+MovementSpeed = 2.0
+
+[node name="RayCast3D" type="RayCast3D" parent="."]
+collision_mask = 254
+hit_from_inside = true
+debug_shape_custom_color = Color(0.968627, 0, 0, 1)
+debug_shape_thickness = 4
+
+[node name="Pivot" type="Node3D" parent="."]
+transform = Transform3D(1, 1.21929e-11, 0, 1.22213e-11, 1, 5.82077e-11, -2.91038e-11, -1.16415e-10, 1, 0, 0, 0)
+
+[node name="Smoothing" type="Node3D" parent="Pivot"]
+transform = Transform3D(0.999825, -1.21909e-11, -3.5204e-07, -1.22192e-11, 0.999831, -5.81994e-11, 2.13273e-07, 1.16396e-10, 0.999857, 0.108895, 14.85, -9.99798)
+script = ExtResource("6_mg8m8")
+
+[node name="characterMedium" parent="Pivot/Smoothing" instance=ExtResource("2_nd5ig")]
+transform = Transform3D(1.00018, 1.2195e-11, 3.52971e-07, 1.22234e-11, 1.00017, 5.82175e-11, -2.1141e-07, -1.16432e-10, 1.00014, -0.10891, -14.8525, 9.99941)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(0.761603, 8.58335e-11, -0.0185903, 1.05501e-10, 0.721187, 4.07454e-10, 0.0225507, -5.82076e-10, 0.627849, 0.0558578, 1.99116, 0.0930884)
+shape = SubResource("CapsuleShape3D_mgmk6")
 
 [node name="PlayerStateMachine" type="Node3D" parent="."]
 script = ExtResource("2_q5vsp")
+metadata/_edit_lock_ = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_nct81")
+}
+autoplay = "idle"
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(-0.999911, 0, 0.00240914, 0, 0.999831, 0, -0.00240662, 0, -0.999946, 0, 0, 0)
+
+[node name="PhantomCameraHost" type="Node" parent="Camera3D"]
+script = ExtResource("5_kefl2")
+
+[node name="PhantomCamera3D" type="Node3D" parent="." node_paths=PackedStringArray("follow_target")]
+transform = Transform3D(-0.999911, 0, 0.00240914, 0, 0.999831, 0, -0.00240662, 0, -0.999946, 0, 0, 0)
+script = ExtResource("4_sjyj6")
+follow_mode = 1
+follow_target = NodePath("..")
+look_at_mode = 2
+tween_resource = SubResource("Resource_43r8r")
+camera_3d_resource = SubResource("Resource_nhmn7")
