@@ -1,3 +1,6 @@
-[gd_scene format=3 uid="uid://bgeatpfxlr3xs"]
+[gd_scene load_steps=2 format=3 uid="uid://bgeatpfxlr3xs"]
+
+[ext_resource type="Script" path="res://Managers/PowerManager.cs" id="1_uk137"]
 
 [node name="PowerManagerScene" type="Node"]
+script = ExtResource("1_uk137")
